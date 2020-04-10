@@ -9,6 +9,7 @@ Twitter -> Flink application -> TweetParser -> TweetFilter -> Window aggregation
 The aggreation of a positive or negative sentiment is based on the presence of one of the words previously defined.
 In our case, a tweet is counted as a negative sentiment if it contains words like: death, new cases, fatalities, ...
 In the same way, for a positive sentiment, a tweet must contains words like: recovery, healed, survived, ...
+If a tweet is classified as negative and positive, we set this as neutral. If a tweet is not classified as negative or positive, than is neutral. 
 
 This project is just an example how we can analyze social media sentiment based on simple rules.
 
@@ -16,3 +17,7 @@ The data currently is just printted on the terminal, if anyone wants to contribu
 
 Thanks, enjoy.
 
+
+## Aggregation output
+
+1> SentimentOnTwitter(totalTweets = 235, positivesSentiment = 7, negativesSentiment = 12, neutral = 216, time = 2020-04-10T15:15:00.015Z)
