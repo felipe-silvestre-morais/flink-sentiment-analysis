@@ -14,7 +14,7 @@ If a tweet is classified as negative and positive, we set this as neutral. If a 
 
 
 ## Aggregation output
-The data currently is just printed on the terminal, if anyone wants to contribute to this project, specially building a front end, I would be more than help to sink the data in a datastore like Redis or MySQL.
+The data currently is just printed on the terminal, if anyone wants to contribute to this project, specially building a front end, I would do more than help to sink the data in a datastore like Redis or MySQL.
 
 1> SentimentOnTwitter(totalTweets = 235, positivesSentiment = 7, negativesSentiment = 12, neutral = 216, time = 2020-04-10T15:15:00.015Z)
 
